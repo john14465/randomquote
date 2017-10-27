@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Random Quote</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section id="landing">
         <div class="container">
-            <h1>Random Quote Mechine</h1>
-            <hr>
-            <br>
-            <h3 id="quote"></h3>
-            <h4 id="author"></h4>
-            <a class="waves-effect waves-light btn-large">Generate Quote</a>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Twitter</a>
+            <div class="row">
+            <div class="quote-box">
+                <h1>Random Quote Machine</h1>
+                <hr>
+                <p><span id="quote"></span></P>
+                <p><em id="author"></em></p>
+                <br>
+                <a href="#" id="new" class="waves-effect waves-light btn-large">New Quote</a>
+                <a href="#" id="tweet" class="waves-effect waves-light btn-large" target="_blank">Tweet Quote</a>
+            </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <p>Created by <a href="http://www.ajdevportfolio.com/" target="_blank">Adam Johnson</a></p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="js/app.js"></script>

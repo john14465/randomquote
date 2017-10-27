@@ -1,0 +1,34 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.25em;
+  }
+
+  footer {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+  }
+  
+  #landing {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#007FFF, #2C3E50);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .quote-box {
+    margin-top: 100px;
+  }
